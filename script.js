@@ -44,7 +44,7 @@ function submitOrder() {
     body += "TOTAL AMOUNT: PHP " + totalAmount.toFixed(2);
 
     // Palitan mo ito ng email ni Arjay
-    let arjayEmail = "arjay@example.com"; 
+    let arjayEmail = "libananking@gmail.com"; 
     let mailtoLink = "mailto:" + arjayEmail + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
 
     window.location.href = mailtoLink;
