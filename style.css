@@ -1,0 +1,99 @@
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    font-size: 14px; /* Mas maliit na default font */
+}
+
+.header {
+    background-color: #cc0000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    max-width: 400px; /* Mas makitid para sa mobile */
+    margin: auto;
+    padding: 10px;
+}
+
+.section {
+    background: white;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.section-title {
+    font-size: 15px;
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+/* Slim Product Row */
+.product-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0; /* Mas manipis na padding */
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.p-name { font-weight: bold; display: block; font-size: 13px; }
+.p-price { color: #cc0000; font-size: 12px; }
+
+.action { display: flex; gap: 4px; }
+.action input { width: 45px; padding: 4px; font-size: 12px; }
+.action button { 
+    background: #2e7d32; color: white; border: none; 
+    padding: 4px 8px; border-radius: 3px; font-size: 12px; 
+}
+
+/* Inputs & Textareas */
+.small-input, .small-text {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+
+.small-text { height: 50px; resize: none; }
+
+.label-small {
+    font-size: 12px;
+    color: #666;
+    margin-top: 8px;
+    display: block;
+}
+
+/* Buttons */
+.email-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.reset-link {
+    background: none;
+    border: none;
+    color: #999;
+    text-decoration: underline;
+    width: 100%;
+    margin-top: 8px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#order-list { padding: 0; list-style: none; font-size: 12px; }
+#order-list li { border-bottom: 1px dotted #ccc; padding: 4px 0; }
